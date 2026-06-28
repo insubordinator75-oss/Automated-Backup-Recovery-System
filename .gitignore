@@ -1,14 +1,21 @@
+# Virtual Environment
 venv/
 .venv/
 
+# Python cache
 __pycache__/
-
 *.pyc
 
-secret.key
-
+# Database
 *.db
 
-logs/*.log
+# Logs
+logs/
+*.log
 
-storage/backups/s
+# Backup files
+storage/backups/
+restored_data/
+
+# Encryption key
+security/secret.key
