@@ -1,0 +1,14 @@
+venv/
+.venv/
+
+__pycache__/
+
+*.pyc
+
+secret.key
+
+*.db
+
+logs/*.log
+
+storage/backups/s
